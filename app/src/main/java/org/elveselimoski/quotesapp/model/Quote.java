@@ -2,6 +2,7 @@ package org.elveselimoski.quotesapp.model;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 /**
@@ -18,6 +19,7 @@ public class Quote {
     public Quote() {
     }
 
+    @Ignore
     public Quote(String id, String en, String author) {
         this.id = id;
         this.en = en;

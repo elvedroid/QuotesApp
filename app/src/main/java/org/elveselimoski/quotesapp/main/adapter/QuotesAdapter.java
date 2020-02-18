@@ -1,4 +1,4 @@
-package org.elveselimoski.quotesapp;
+package org.elveselimoski.quotesapp.main.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,9 +8,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import org.elveselimoski.quotesapp.R;
 import org.elveselimoski.quotesapp.model.Quote;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
